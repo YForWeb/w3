@@ -1,7 +1,6 @@
 // Image switcher code
 
 let myImage = document.querySelector('img');
-  //documentsは組み込みのオブジェクト
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
@@ -16,7 +15,7 @@ myImage.onclick = function() {
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
-console.log(myHeading);
+//console.log(myHeading);
 
 function setUserName() {
   let myName = prompt('Please enter your name.');
