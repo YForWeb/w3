@@ -18,7 +18,7 @@ let myHeading = document.querySelector('h1');
 //console.log(myHeading);
 
 function setUserName() {
-  let myName = prompt('Please enter your name.');
+  let myName = prompt('名前を入力してください。');
   if(!myName) {
     setUserName();
   } else {
